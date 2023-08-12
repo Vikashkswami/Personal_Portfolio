@@ -1,0 +1,68 @@
+@media screen and (min-width:0px) and (max-width:479px) {
+
+ /* Header section  */
+
+ .menubar{
+   display: none;
+   transition: 2s;
+ }
+
+ #bar{
+    display: block;
+ }
+
+ .container2{
+    flex-direction: column-reverse;
+    height: 800px;
+ }
+
+ .image img{
+    width: 340px;
+ }
+
+ .description{
+    width: 350px;
+ }
+
+ .about-me{
+    width: 310px;
+    height: 300px;
+ }
+
+ .container3{
+    height: 220px;
+    flex-direction: column;
+    height: 300px;
+    align-items: flex-start;
+ }
+
+ .des{
+    align-items: start;
+ }
+
+ /* Resume section */
+
+ .resume-section{
+   padding: 0px;
+ }
+
+ .biodata{
+   padding-left: 0px;
+   flex-direction: column;
+ }
+
+ /* project-section */
+
+   .project-section{
+      padding: 0px;
+   }
+
+   .data{
+      flex-direction: column;
+   }
+
+   .right-one img{
+      width: 295px;
+      margin-top: 30px;
+   }
+}
